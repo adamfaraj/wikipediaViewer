@@ -1,0 +1,39 @@
+
+body{
+  background-color: #2e456b !important;
+  margin: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.search-container{
+  text-align: center;
+}
+.search-text{
+  border: none;
+  background-color: inherit;
+  border-bottom: 1px solid gray;
+  color: white;
+}
+.search-text:focus{
+  outline: none;
+}
+h2{
+  color: white !important;
+  font-size: 40px;
+  font-weight: 300;
+}
+#divResults{
+  background-color: white;
+  color: #333;
+  margin: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  border-radius: 10px;
+}
+a:hover{
+  text-decoration: none;
+}
+div > a{
+  padding-top: 15px;
+}
